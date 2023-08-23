@@ -35,12 +35,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
-```
+
 ## Creating a Section
 ```lua
 local Section = Tab:AddSection({
